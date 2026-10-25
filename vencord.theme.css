@@ -1,0 +1,159 @@
+/**
+ * @name Rose Meridian
+ * @description Midnight for Discord in Rose Meridian colours: silhouette panels, sun-cream text, sunrise accents, rose-rim frames.
+ * @author Devis99, refact0r (midnight)
+ * @version 1.0.0
+ * @upstream https://github.com/refact0r/midnight-discord
+*/
+
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+
+body {
+    --font: 'JetBrainsMono Nerd Font';
+    --code-font: 'JetBrainsMono Nerd Font';
+    font-weight: 400;
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --border-thickness: 1px;
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+    --border-hover-transition: 0.2s ease;
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+    --custom-dms-icon: off;
+    --custom-dms-background: off;
+    --background-image: off;
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+    --bg-floating: var(--bg-3);
+    --custom-chatbar: off;
+    --chatbar-height: 47px;
+    --small-user-panel: on;
+}
+
+:root {
+    --colors: on;
+
+    /* text: the sun's cream on the silhouette */
+    --text-0: var(--bg-4);
+    --text-1: #fdf0de;
+    --text-2: #fdf0de;
+    --text-3: #fbe4c5;
+    --text-4: #9b9095;
+    --text-5: #665f58;
+
+    /* silhouette panels */
+    --bg-1: oklch(33% 0.006 92);
+    --bg-2: #2f2e2b;
+    --bg-3: #23221f;
+    --bg-4: #1a1916;
+    /* hover and selection are lit by the sun's rose rim */
+    --hover: rgba(237, 153, 152, 0.08);
+    --active: rgba(237, 153, 152, 0.16);
+    --active-2: rgba(237, 153, 152, 0.24);
+    --message-hover: rgba(0, 0, 0, 0.12);
+
+    /* accents: the sun's rose edge */
+    --accent-1: oklch(85% 0.08 20);
+    --accent-2: oklch(77% 0.10 20);
+    --accent-3: oklch(71% 0.10 20);
+    --accent-4: oklch(65% 0.10 20);
+    --accent-5: oklch(59% 0.09 20);
+    --accent-new: var(--red-2);
+    --mention: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 88%) 40%, transparent);
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 94%) 40%, transparent);
+    --reply: linear-gradient(to right, color-mix(in hsl, #ed9998, transparent 88%) 40%, transparent);
+    --reply-hover: linear-gradient(to right, color-mix(in hsl, #ed9998, transparent 94%) 40%, transparent);
+
+    --online: var(--green-2);
+    --dnd: var(--red-2);
+    --idle: var(--yellow-2);
+    --streaming: var(--purple-2);
+    --offline: var(--text-4);
+
+    /* panel frames are the sun's rose rim */
+    --border-light: rgba(237, 153, 152, 0.12);
+    --border: rgba(237, 153, 152, 0.28);
+    --border-hover: rgba(237, 153, 152, 0.55);
+    --button-border: rgba(237, 153, 152, 0.18);
+
+    /* base colours, each family at its measured hue and chroma in the picked stills (OKLCH) */
+    --green-1: oklch(86% 0.047 92);   /* pale gold: wallpapers h80-100 peak: the sun's halo */
+    --green-2: oklch(78% 0.062 92);
+    --green-3: oklch(72% 0.062 92);
+    --green-4: oklch(66% 0.062 92);
+    --green-5: oklch(60% 0.062 92);
+
+    --red-1: oklch(86% 0.075 18);   /* rose: sunrise rim (pick 7), deeper */
+    --red-2: oklch(78% 0.100 18);
+    --red-3: oklch(72% 0.100 18);
+    --red-4: oklch(66% 0.100 18);
+    --red-5: oklch(60% 0.100 18);
+
+    --yellow-1: oklch(86% 0.061 62);   /* apricot: wallpapers h60-80 peak */
+    --yellow-2: oklch(78% 0.081 62);
+    --yellow-3: oklch(72% 0.081 62);
+    --yellow-4: oklch(66% 0.081 62);
+    --yellow-5: oklch(60% 0.081 62);
+
+    --blue-1: oklch(86% 0.022 350);   /* sky lit: mauve-grey sky (pick 7), lit */
+    --blue-2: oklch(78% 0.030 350);
+    --blue-3: oklch(72% 0.030 350);
+    --blue-4: oklch(66% 0.030 350);
+    --blue-5: oklch(60% 0.030 350);
+
+    --purple-1: oklch(86% 0.042 359);   /* dawn: pink haze (pick 8) */
+    --purple-2: oklch(78% 0.056 359);
+    --purple-3: oklch(72% 0.056 359);
+    --purple-4: oklch(66% 0.056 359);
+    --purple-5: oklch(60% 0.056 359);
+
+    --orange-1: oklch(86% 0.074 38);   /* salmon: wallpapers h20-40 peak */
+    --orange-2: oklch(78% 0.099 38);
+    --orange-3: oklch(72% 0.099 38);
+    --orange-4: oklch(66% 0.099 38);
+    --orange-5: oklch(60% 0.099 38);
+}
+
+/* ---- Rose Meridian: the sun disc as the highlight, haze as the band ---- */
+
+/* selected channel and DM: dawn-haze band, rose-rim hairline, sun-cream text */
+[class*="modeSelected"] .link__2ea32,
+.interactive__972a0.interactiveSelected__972a0 {
+    background: color-mix(in srgb, #583742 70%, transparent) !important;
+    box-shadow: inset 0 0 0 1px #ed9998;
+    border-radius: var(--radius-sm, 6px);
+}
+[class*="modeSelected"] .link__2ea32 [class*="name"],
+[class*="modeSelected"] .link__2ea32 .icon__2ea32,
+.interactive__972a0.interactiveSelected__972a0 [class*="name"] {
+    color: #fdf0de !important;
+}
+
+/* server list: the selection marker is a sliver of the sun's rim */
+.item__58105 {
+    background-color: #ed9998 !important;
+}
+
+/* message box: rose hairline while typing */
+#app-mount .channelTextArea_f75fb0:focus-within {
+    border-color: #ed9998 !important;
+}
+
+/* scrollbars and text selection in the sun's rim and the dawn haze */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(237, 153, 152, 0.35) !important;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(237, 153, 152, 0.6) !important;
+}
+::selection {
+    background: #583742;
+    color: #fdf0de;
+}

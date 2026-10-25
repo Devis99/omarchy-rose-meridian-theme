@@ -1,0 +1,29 @@
+system: "base24"
+name: "Rose Meridian"
+author: "Devis99"
+variant: "dark"
+palette:
+  base00: "#23221f"  # silhouette
+  base01: "#2f2e2b"  # dust
+  base02: "#583742"  # dawn haze in shadow
+  base03: "#9b9095"  # mauve-grey sky
+  base04: "#d3c1aa"  # sun dim
+  base05: "#fbe4c5"  # sun core
+  base06: "#fdf0de"  # sun lit
+  base07: "#fdf0de"  # sun lit
+  base08: "#c8787b"  # rose
+  base09: "#f4a68e"  # salmon
+  base0A: "#fdca9f"  # apricot
+  base0B: "#ccbd90"  # pale gold halo
+  base0C: "#ebc5d1"  # blush
+  base0D: "#c1aab4"  # lit sky
+  base0E: "#cda0ad"  # dawn
+  base0F: "#ed9998"  # sunrise rim
+  base10: "#1a1916"  # shadow
+  base11: "#11100d"  # deep shadow
+  base12: "#e08d90"  # rose lit
+  base13: "#ffe8d5"  # apricot lit
+  base14: "#e3d4a6"  # pale gold lit
+  base15: "#ffdde8"  # blush lit
+  base16: "#d8c0ca"  # sky lit
+  base17: "#e4b6c3"  # dawn lit

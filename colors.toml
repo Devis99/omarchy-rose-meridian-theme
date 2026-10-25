@@ -1,0 +1,38 @@
+mode = "dark"
+
+# Rose Meridian - a small figure under three suns.
+# Ground, text and accent are measured from Netflix's 3 Body Problem (the pyramid at sunrise in the
+# VR game); every other colour is measured from the wallpapers. Slot names are schema labels: one warm
+# family from rose to apricot - green is the pale gold of the sun halo, blue is the mauve-grey sky.
+
+accent               = "#ed9998"  # sunrise
+selection            = "#583742"  # haze
+muted                = "#9b9095"  # sky
+background           = "#23221f"  # silhouette
+dark_background      = "#1a1916"  # shadow
+darker_background    = "#11100d"  # shadow_deep
+lighter_background   = "#2f2e2b"  # dust
+foreground           = "#fbe4c5"  # sun
+dark_foreground      = "#d3c1aa"  # sun_dim
+light_foreground     = "#fdf0de"  # sun_hi
+bright_foreground    = "#fdf0de"  # sun_hi
+selection_foreground = "#fdf0de"  # sun_hi
+selection_background = "#583742"  # haze
+red                  = "#c8787b"  # rose
+orange               = "#f4a68e"  # salmon
+yellow               = "#fdca9f"  # apricot
+green                = "#ccbd90"  # pale_gold
+cyan                 = "#ebc5d1"  # blush
+blue                 = "#c1aab4"  # sky_lit
+magenta              = "#cda0ad"  # dawn
+brown                = "#845445"  # salmon_shadow
+bright_red           = "#e08d90"  # rose_hi
+bright_yellow        = "#ffe8d5"  # apricot_hi
+bright_green         = "#e3d4a6"  # pale_gold_hi
+bright_cyan          = "#ffdde8"  # blush_hi
+bright_blue          = "#d8c0ca"  # sky_lit_hi
+bright_magenta       = "#e4b6c3"  # dawn_hi
+
+# Sun disc: the sun's face, corner to corner - rose rim, cream core, rose rim.
+hyprland_active_border = "rgb(ed9998) rgb(fbe4c5) rgb(ed9998) 45deg"
+hyprland_inactive_border = "rgba(665f5899)"  # sand
