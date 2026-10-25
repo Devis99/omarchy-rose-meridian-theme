@@ -4,6 +4,6 @@
 accent = "#ed9998"     # sunrise: primary interactive
 bright_fg = "#fdf0de"  # sun cream: primary text and time
 fg = "#9b9095"         # dim text and inactive elements
-green = "#ccbd90"      # pale gold of the sun halo: playing indicator, spectrum lows
+green = "#c6a573"      # sun gold: playing indicator, spectrum lows
 yellow = "#fdca9f"     # apricot: spectrum mids, warnings
 red = "#c8787b"        # deep rose: spectrum highs, errors

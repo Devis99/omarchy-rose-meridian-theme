@@ -84,11 +84,11 @@ body {
     --button-border: rgba(237, 153, 152, 0.18);
 
     /* base colours, each family at its measured hue and chroma in the picked stills (OKLCH) */
-    --green-1: oklch(86% 0.047 92);   /* pale gold: wallpapers h80-100 peak: the sun's halo */
-    --green-2: oklch(78% 0.062 92);
-    --green-3: oklch(72% 0.062 92);
-    --green-4: oklch(66% 0.062 92);
-    --green-5: oklch(60% 0.062 92);
+    --green-1: oklch(86% 0.058 78);   /* sun gold: flat posters h70-80 peak: the cream of the suns, darker */
+    --green-2: oklch(78% 0.077 78);
+    --green-3: oklch(72% 0.077 78);
+    --green-4: oklch(66% 0.077 78);
+    --green-5: oklch(60% 0.077 78);
 
     --red-1: oklch(86% 0.075 18);   /* rose: sunrise rim (pick 7), deeper */
     --red-2: oklch(78% 0.100 18);

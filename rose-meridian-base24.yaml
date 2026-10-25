@@ -14,7 +14,7 @@ palette:
   base08: "#c8787b"  # rose
   base09: "#f4a68e"  # salmon
   base0A: "#fdca9f"  # apricot
-  base0B: "#ccbd90"  # pale gold halo
+  base0B: "#c6a573"  # sun gold
   base0C: "#ebc5d1"  # blush
   base0D: "#c1aab4"  # lit sky
   base0E: "#cda0ad"  # dawn
@@ -23,7 +23,7 @@ palette:
   base11: "#11100d"  # deep shadow
   base12: "#e08d90"  # rose lit
   base13: "#ffe8d5"  # apricot lit
-  base14: "#e3d4a6"  # pale gold lit
+  base14: "#ddbb88"  # sun gold lit
   base15: "#ffdde8"  # blush lit
   base16: "#d8c0ca"  # sky lit
   base17: "#e4b6c3"  # dawn lit

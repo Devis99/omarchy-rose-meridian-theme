@@ -3,7 +3,7 @@ mode = "dark"
 # Rose Meridian - a small figure under three suns.
 # Ground, text and accent are measured from Netflix's 3 Body Problem (the pyramid at sunrise in the
 # VR game); every other colour is measured from the wallpapers. Slot names are schema labels: one warm
-# family from rose to apricot - green is the pale gold of the sun halo, blue is the mauve-grey sky.
+# family from rose to apricot - green is the darker gold of the suns, blue is the mauve-grey sky.
 
 accent               = "#ed9998"  # sunrise
 selection            = "#583742"  # haze
@@ -21,14 +21,14 @@ selection_background = "#583742"  # haze
 red                  = "#c8787b"  # rose
 orange               = "#f4a68e"  # salmon
 yellow               = "#fdca9f"  # apricot
-green                = "#ccbd90"  # pale_gold
+green                = "#c6a573"  # sun_gold
 cyan                 = "#ebc5d1"  # blush
 blue                 = "#c1aab4"  # sky_lit
 magenta              = "#cda0ad"  # dawn
 brown                = "#845445"  # salmon_shadow
 bright_red           = "#e08d90"  # rose_hi
 bright_yellow        = "#ffe8d5"  # apricot_hi
-bright_green         = "#e3d4a6"  # pale_gold_hi
+bright_green         = "#ddbb88"  # sun_gold_hi
 bright_cyan          = "#ffdde8"  # blush_hi
 bright_blue          = "#d8c0ca"  # sky_lit_hi
 bright_magenta       = "#e4b6c3"  # dawn_hi

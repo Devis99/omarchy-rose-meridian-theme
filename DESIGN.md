@@ -26,7 +26,7 @@ Nothing was invented to fill a slot, and colours that appear in no wallpaper are
 | Rose | `#c8787b` | the sunrise rim, deeper |
 | Salmon | `#f4a68e` | wallpapers, strongest colour at hue 20-40 |
 | Apricot | `#fdca9f` | wallpapers, strongest colour at hue 60-80 |
-| Pale gold | `#ccbd90` | wallpapers, the halo round the suns (hue 80-100) |
+| Sun gold | `#c6a573` | the cream of the suns in the wallpapers, darker (hue 77) |
 | Blush | `#ebc5d1` | the dawn haze, lit |
 | Lit sky | `#c1aab4` | the mauve-grey sky, lit |
 
@@ -39,8 +39,8 @@ Dark/bright variants and surfaces are lightness steps of the same colours.
 - **Text** is the sun itself, at 12.9:1.
 - **Accent** is the sun's rose edge. Selection is the dawn haze in shadow (`#583742`).
 - **Terminal colours are one warm family**, not a rainbow. Slot names are schema labels: red is deep rose,
-  orange salmon, yellow apricot, green the pale gold of the sun's halo, cyan blush, blue the lit sky,
-  magenta dawn. Errors (rose) and passes (pale gold) differ in hue and lightness.
+  orange salmon, yellow apricot, green the darker gold of the suns, cyan blush, blue the lit sky,
+  magenta dawn. Errors (rose) and passes (sun gold) differ in hue and lightness.
 
 ## Surfaces as objects
 
