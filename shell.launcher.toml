@@ -12,5 +12,5 @@ selected-text             = "#fdf0de"
 selected-border           = "rgb(ed9998) rgb(fbe4c5) rgb(ed9998) 90deg"
 selected-border-alpha     = 1.0
 selected-border-width     = 4
-selected-border-width-top    = 0
-selected-border-width-bottom = 0
+selected-border-width-top    = 1
+selected-border-width-bottom = 1

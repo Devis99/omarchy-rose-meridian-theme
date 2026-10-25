@@ -46,7 +46,7 @@ Dark/bright variants and surfaces are lightness steps of the same colours.
 
 - **Active window border — the sun disc:** rose rim, cream core, rose rim, running corner to corner (45°) so the colour changes at the corners.
 - **Inactive border:** horizon sand at 60%.
-- **Menu and launcher:** the selected row stands between two pillars, like the pendulum arches: sun-disc bars on the left and right ends only, rose at the ends and cream in the middle (vertical), with a faint sunrise wash.
+- **Menu and launcher:** the selected row stands between two pillars, like the pendulum arches: 4px sun-disc bars at both ends (rose at the ends, cream in the middle, vertical) joined by a 1px lintel top and bottom, with a faint sunrise wash. The lintel keeps all four sides on: with left/right only, Omarchy draws two separate shapes and drops the right one when window rounding is enabled.
 - **Popups:** framed by the same diagonal sun disc as the windows.
 
 ## Wallpapers
