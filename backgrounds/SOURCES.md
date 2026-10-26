@@ -1,9 +1,8 @@
 # Wallpaper sources
 
 All ten wallpapers are AI-generated with Codex's image generation in a flat vector poster style, then
-upscaled to 3840x2160: Real-ESRGAN (x4plus-anime) for edges and detail, a plain Lanczos upscale of the
-original for flat areas like the sky, so the sky keeps its natural grain without blotches or tile seams. Colours are left as generated.
-They contain no frames from the series.
+upscaled to 3840x2160 with Upscayl's UltraMix Balanced model, which keeps the dark skies'
+fine grain instead of flattening it into blotches.
 
 | File | Scene |
 | --- | --- |
