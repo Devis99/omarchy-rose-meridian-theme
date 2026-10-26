@@ -1,7 +1,8 @@
 # Wallpaper sources
 
 All ten wallpapers are AI-generated with Codex's image generation in a flat vector poster style, then
-upscaled with Real-ESRGAN (x4plus-anime) and resized to 3840x2160. Colours are left as generated.
+upscaled to 3840x2160: Real-ESRGAN (x4plus-anime) for edges and detail, a plain Lanczos upscale of the
+original for flat areas like the sky, so the sky keeps its natural grain without blotches or tile seams. Colours are left as generated.
 They contain no frames from the series.
 
 | File | Scene |
