@@ -37,22 +37,22 @@ All wallpapers are 3840x2160, generated with AI (Codex image generation) in a fl
 
 <table>
   <tr>
-    <td><img src="backgrounds/01-pyramid.jpg" alt="A stepped pyramid in front of three suns"><br><sub>01 Pyramid</sub></td>
-    <td><img src="backgrounds/02-pendulums.jpg" alt="Three stone arches with pendulum weights"><br><sub>02 Pendulums</sub></td>
-    <td><img src="backgrounds/03-observatory.jpg" alt="An armillary sphere and an obelisk against three suns"><br><sub>03 Observatory</sub></td>
+    <td><img src="backgrounds/01-pyramid.png" alt="A stepped pyramid in front of three suns"><br><sub>01 Pyramid</sub></td>
+    <td><img src="backgrounds/02-pendulums.png" alt="Three stone arches with pendulum weights"><br><sub>02 Pendulums</sub></td>
+    <td><img src="backgrounds/03-observatory.png" alt="An armillary sphere and an obelisk against three suns"><br><sub>03 Observatory</sub></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/04-eclipse.jpg" alt="A dark sun crossing a bright one, figures watching"><br><sub>04 Eclipse</sub></td>
-    <td><img src="backgrounds/05-human-computer.jpg" alt="A watchtower over a grid of soldier formations"><br><sub>05 Human Computer</sub></td>
-    <td><img src="backgrounds/06-stable-era.jpg" alt="A camel caravan on a dune under one calm sun"><br><sub>06 Stable Era</sub></td>
+    <td><img src="backgrounds/04-eclipse.png" alt="A dark sun crossing a bright one, figures watching"><br><sub>04 Eclipse</sub></td>
+    <td><img src="backgrounds/05-human-computer.png" alt="A watchtower over a grid of soldier formations"><br><sub>05 Human Computer</sub></td>
+    <td><img src="backgrounds/06-stable-era.png" alt="A camel caravan on a dune under one calm sun"><br><sub>06 Stable Era</sub></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/07-flying-stars.jpg" alt="A frozen plain at night with three distant suns"><br><sub>07 Flying Stars</sub></td>
-    <td><img src="backgrounds/08-red-coast.jpg" alt="A radar dish on a ridge against a rose-rimmed sun"><br><sub>08 Red Coast</sub></td>
-    <td><img src="backgrounds/09-screen-hall.jpg" alt="A man in a hall facing three suns on a giant screen"><br><sub>09 Screen Hall</sub></td>
+    <td><img src="backgrounds/07-flying-stars.png" alt="A frozen plain at night with three distant suns"><br><sub>07 Flying Stars</sub></td>
+    <td><img src="backgrounds/08-red-coast.png" alt="A radar dish on a ridge against a rose-rimmed sun"><br><sub>08 Red Coast</sub></td>
+    <td><img src="backgrounds/09-screen-hall.png" alt="A man in a hall facing three suns on a giant screen"><br><sub>09 Screen Hall</sub></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/10-ring-ship.jpg" alt="A ring-shaped ship over the desert"><br><sub>10 Ring Ship</sub></td>
+    <td><img src="backgrounds/10-ring-ship.png" alt="A ring-shaped ship over the desert"><br><sub>10 Ring Ship</sub></td>
     <td></td>
     <td></td>
   </tr>
