@@ -6,11 +6,7 @@ A dusty-rose Omarchy theme about a small figure standing under three suns. The p
 
 ![Rose Meridian Omarchy theme preview](preview.png)
 
-<table>
-  <tr>
-    <td><img src="preview-unlock.png" alt="Rose Meridian unlock screen with the figure-eight orbit"></td>
-  </tr>
-</table>
+![Rose Meridian unlock screen with the figure-eight orbit](preview-unlock.png)
 
 ## Install
 
